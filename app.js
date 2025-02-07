@@ -10,6 +10,7 @@ let h2 = document.querySelector("h2");
 
 document.addEventListener("keypress", startGame);
 h2.addEventListener("click", startGame);
+h2.addEventListener("touchstart", startGame);
 
 function startGame() {
     if (!started) {
